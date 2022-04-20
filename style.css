@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: block;
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.borda{
+    background-color: rgb(61, 61, 61);
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    border-radius: 10px;
+}
+
+/* Sempre lembrar que esta é a configuração  correta para o efeito parallax! */
+
+.parallax1{
+    position: relative;
+    min-height: 100%;
+    background-image: url("dog.jpg");
+
+    min-height: 700px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text1{
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px;
+}
+.text1 h2{
+    margin-bottom: 20px;
+    color: rgb(49, 49, 49);
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+.text1 p{
+    color: rgb(73, 73, 73);
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    
+}
+.parallax2{
+    position: relative;
+    min-height: 100%;
+    background-image: url("fullhd.jpg");
+
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text2{
+    background-color: rgb(37, 34, 46);
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+.parallax3{
+    position: relative;
+    background-image: url("2.jpg");
+
+    min-height: 400px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
